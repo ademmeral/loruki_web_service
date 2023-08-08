@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+    padding: 0;
+
+    font-weight: 300;
+}
+body{
+    font-family: 'Lato', sans-serif;
+
+    gap: var(--GAP-XXXL);
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+input{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+
+    font-family: inherit;
+    font-size: var(--FS-M);
+    font-weight: 500;
+
+    background-color: transparent;
+
+    padding: var(--PADDING-SM);
+    padding-left: 0;
+
+}
+form input:last-child{
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.bg-light-blue{
+    background-color: var(--LIGHT-BLUE);
+}
+.bg-dark-blue{
+    background-color: var(--DARK-BLUE);
+}
+.fc-white{
+    color: var(--WHITE);
+}
+.fc-dark{
+    color: var(--DARK);
+}
+.fc-blue{
+    color: var(--BLUE);
+    font-weight: 500;
+}
+.card{
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.btn{
+    border-radius: 5px;
+
+    font-weight: 500;
+
+    display: inline-block;
+}
+.btn:hover{
+    transform: scale(0.95);
+}
+
+:root{
+    /* || PADDING & MARGIN & GAP|| */
+
+    --PADDING-XS        : 0.5rem;
+    --PADDING-SM        : 1rem;
+    --PADDING-M         : 1.5rem;
+    --PADDING-L         : 2.5rem;
+    --PADDING-XL        : 3.5rem;
+    --PADDING-XXL       : 4.5rem;     
+    --PADDING-XXXL      : 6rem;     
+
+
+    --MARGIN-XS        : 0.5rem;
+    --MARGIN-SM        : 1rem;
+    --MARGIN-M         : 1.5rem;
+    --MARGIN-L         : 2.5rem;
+    --MARGIN-XL        : 3.5rem;  
+    --MARGIN-XXL       : 4.5rem;     
+    --MARGIN-XXXL      : 6rem;     
+   
+    --GAP-XS        : 0.5rem;
+    --GAP-SM        : 1rem;
+    --GAP-M         : 1.5rem;
+    --GAP-L         : 2.5rem;
+    --GAP-XL        : 3.5rem;
+    --GAP-XXL       : 4.5rem;     
+    --GAP-XXXL      : 6rem;     
+
+    /* || FONT SIZE || */
+
+    --FS-XS        : 0.7rem;
+    --FS-SM        : 0.9rem;
+    --FS-M         : 1rem;
+    --FS-L         : 2rem;
+    --FS-XL        : 2.5rem;
+    --FS-XXL       : 3rem;     
+    --FS-XXXL      : 4rem;     
+
+
+    /* || COLOR || */
+
+    --LIGHT-BLUE       : #047aed;
+    --BLUE             : #1c3fa8;
+    --DARK-BLUE        : #002240;
+    --WHITE            : #f4f4f4;
+    --DARK             : #333;
+
+
+}
+
